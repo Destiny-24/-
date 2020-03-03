@@ -1,0 +1,355 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width:100%;
+  height: 100%;
+  min-width: 1890px;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-flow: column;
+}
+.page-header{
+  position: relative;
+}
+.banner{
+  background-size: cover;
+}
+.logo{
+  position: absolute;
+  left: 460px;
+  top: 20px;
+}
+.banner-pic{
+  position: absolute;
+  top:154px;
+  left: 592px;
+}
+.page-mainer{
+  width: 988px;
+  margin: 0 auto;
+  position: relative;
+  border: #e2e2e2 6px solid;
+  flex: 1;
+}
+.border{
+  position: absolute;
+  top: -23px;
+  left: -42px;
+}
+.greet-section{
+  display:flex;
+  background-color: #ffffff;
+  height: 284px;
+}
+.greet-bg{
+  padding: 19px 16px 0 20px;
+}
+.greet-title h2{
+  margin: 0 auto;
+  padding-top:98px;
+  width:300px;
+  height:29px;
+  font-size:30px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:35px;
+}
+.greet-title p{
+  padding-top:31px;
+  width: 798px;
+  height:43px;
+  font-size:16px;
+  font-weight:normal;
+  color: #000;
+  line-height:26px;
+  text-align: center;
+}
+.course-content{
+  display: flex;
+}
+.course-logo{
+  padding: 19px 12px 0 20px;
+}
+.course-Introduction p{
+  width:518px;
+  height:95px;
+  font-size:16px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+  text-align: left;
+  padding-top: 72px;
+  padding-right: 65px;
+}
+.course-img{
+  padding-top: 28px;
+}
+.content-title{
+  padding-top:32px;
+}
+.content-title{
+  display: flex;
+}
+.content-title img{
+  padding: 0px 12px 0 20px;
+}
+.content-subtitle{
+  padding-left: 18px;
+}
+.content-subtitle h3{
+  padding-top: 10px;
+  font-size:22px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+}
+.content-subtitle p{
+  height:17px;
+  font-size:16px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(51,51,51,1);
+  line-height:26px;
+}
+.card-item{
+  width: 290px;
+  height: 212px;
+  background-image: url(.//image/card-bg.png);
+}
+.card-list{
+  display: flex;
+  margin-top: 19px;
+  justify-content: space-around;
+}
+.item-avatar img{
+  margin-left: 101px;
+  margin-top: 12px;
+  border-radius: 50%;
+}
+.item-name{
+  margin: 21px 0px 10px 117px;
+  width:54px;
+  height:17px;
+  font-size:18px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+}
+.item-introduction {
+  width:265px;
+  height:54px;
+  font-size:14px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:20px;
+  margin: 0  auto;
+}
+
+.practice-content{
+  display: flex;
+}
+.practice-logo{
+  padding: 19px 12px 0 20px;
+}
+.practice-Introduction p{
+  width:518px;
+  height:95px;
+  font-size:16px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+  text-align: left;
+  padding-top: 72px;
+  padding-right: 65px;
+}
+.practice-img{
+  padding-top: 28px;
+}
+.split-bar {
+  width: 936px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.practice-section{
+  margin-bottom: 74px;
+}
+.Message-section{
+  position: relative;
+  background-color: #ffffff;
+}
+.upside-title{
+  display: flex;
+}
+.upside-title img{
+  padding: 17px 12px 0 20px;
+}.upside-title h2{
+  width:330px;
+  height:30px;
+  font-size:30px;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:35px;
+  margin: 0 248px;
+  padding-top: 41px;
+}
+.upside-Introduction{
+ position: relative;
+} 
+.blessing p{
+  width:351px;
+  height:94px;
+  font-size:14px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  text-decoration:underline;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+  padding-left: 102px;
+  margin-top: -30px;
+  padding-bottom: 22px;
+}
+.Activity-time p{
+  width:288px;
+  height:12px;
+  font-size:12px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+  padding-left: 102px;
+  margin-bottom: 8px;
+}
+.Activity-Rules {
+  font-size:12px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+  padding-left:102px ;
+}
+.Activity-Rules ol{
+  margin: -18px 20px 0 62px ;
+  list-style: none;
+}
+.Activity-Rules li{
+  width: 295px;
+  font-size:12px;
+  line-height: 12px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  padding-bottom: 12px;
+}
+.gift img{
+  position: absolute;
+  top: -19px;
+  right: 20px;
+}
+.input-box{
+  position: relative;
+  padding-top: 54px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.input{
+  width:650px;
+  height:84px;
+  background:rgba(101,177,217,0);
+  border:1px solid rgba(219, 219, 219, 1);
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+  font-weight: normal;
+  padding-left: 20px;
+}
+.button{
+  width:150px;
+  height:86px;
+  background:linear-gradient(0deg,rgba(235,235,235,1),rgba(250,250,250,1));
+  border:1px solid rgba(219, 219, 219, 1);
+  font-size:16px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(102,102,102,1);
+  line-height:22px;
+  cursor: pointer;
+}
+.textarea-left{
+  top: 55px;
+  left: 84px;
+  position: absolute;
+}
+.textarea-right{
+  bottom: 51px;
+  right: 234px;
+  position: absolute;
+}
+.message-list-contaienr{
+  position: relative;
+  margin: 0 auto;
+  width: 900px;
+  height: 500px;
+}
+.message-item{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 320px;
+  height: 150px;
+  background-color: #ccc;
+  padding: 10px;
+  color: #000000;
+}
+.message-item-card{
+  width:283px;
+  height:31px;
+  font-size:14px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+}
+.mseeage-under{
+  position: relative;
+}
+.message-backimg{
+  position: absolute;
+  right: 0px;
+  top: 266px;
+  z-index: 0;
+}
+.under-border{
+  position: absolute;
+  left: -44px;
+}
+.page-foooter{
+  padding:50px  0px ;
+  margin: 0 auto;
+}
+.info-top{
+  text-align: center;
+  height:17px;
+  font-size:16px;
+  font-family:FZLTHJW;
+  font-weight:normal;    
+  color:rgba(0,0,0,1);
+  line-height:26px;
+}
+.info-down{
+  width:490px;
+  height:13px;
+  font-size:12px;
+  font-family:FZLTHJW;
+  font-weight:normal;
+  color:rgba(0,0,0,1);
+  line-height:26px;
+}
